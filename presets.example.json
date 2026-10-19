@@ -1,0 +1,14 @@
+{
+  "default": "my-voice",
+  "presets": {
+    "my-voice": {
+      "speaker_ref": "voices/me.wav",
+      "emotion_ref": "emotions/role-model.wav",
+      "emo_alpha": 0.5,
+      "duration_factor": 1.0,
+      "gap_ms": 400,
+      "lang": "ZH",
+      "note": "我的音色 + 榜样博主情绪；emo_alpha 越高越有起伏，但音高越往博主靠"
+    }
+  }
+}

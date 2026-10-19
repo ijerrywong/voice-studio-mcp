@@ -1,0 +1,30 @@
+# 声音是生物特征：任何音频都不进仓库
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+*.mp4
+*.mov
+voices/
+emotions/
+
+# 运行时与个人数据
+presets.json
+tests/e2e_out/
+tests/server.log
+*.log
+
+# 上游代码与模型（由 setup.sh 下载）
+index-tts/
+models/
+*.bin
+*.pth
+*.pt
+*.safetensors
+
+# 杂项
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
